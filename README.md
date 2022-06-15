@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GreenChase
 
-## Getting Started
+## About Product
 
-First, run the development server:
+GreenChase is a traceability tool for environment-friendly products developed based on blockchain technology. People can use this tool to trace whether the products they buy are environmentally friendly. It encourages users to be environmentally friendly by helping them trace and accumulate green credits, so as to improve the climate.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## What’s next
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As we are building the first version of the product during the GR-14 hackathon, the functions will only cover “tracing” part. In future versions, we are planning to cooperate with big brands that use recycled materials to produce their products, help them better practice sustainable development.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## How to use grant
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+We will use the grant to build our team and develop the product.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## About Team
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We now just build a small team for GR-14 hackathon. We have less than 10 people from more than 5 different regions/countries with different backgrounds. We hope to keep running our project after the hackathon and publish the game in next few months.
+We may build a discord after the hackathon. However, you can follow us on Twitter.
+Together, we will build a great product and help make the earth a better greener place.
