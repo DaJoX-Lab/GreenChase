@@ -31,8 +31,8 @@ const style = {
 
 const NavBar = () => {
 	const [toggleMenu, setToggleMenu] = React.useState(false)
-	const [status, setStatus] = React.useState(null)
-	const [account, setCurrentAccount] = React.useState('')
+	//const [status, setStatus] = React.useState(null)
+	//const [account, setCurrentAccount] = React.useState('')
 	const { isOpen, onOpen, onClose } = useDisclosure()
 	const [active, setActive] = React.useState('Home')
 	const router = useRouter()
@@ -111,36 +111,16 @@ const NavBar = () => {
 			try {
 				// Request account access if needed
 				await window.ethereum.enable()
-				const accounts = await window.ethereum.request({
+				await window.ethereum.request({
 					method: 'eth_requestAccounts',
 				})
 				// Acccounts now exposed
-				setCurrentAccount(accounts[0])
+				//setCurrentAccount(accounts[0])
 				onClose()
 				return web3
 			} catch (error) {
 				console.error(error)
-				setStatus(
-					<p className='mt-2'>
-						{' '}
-						🦊{' '}
-						<a target='_blank' href={`https://metamask.io/download.html`}>
-							You must install metamask Portal, a virtual wallet, in your
-							browser.
-						</a>
-					</p>
-				)
 			}
-		} else {
-			setStatus(
-				<p className='mt-2'>
-					{' '}
-					🦊{' '}
-					<a target='_blank' href={`https://metamask.io/download.html`}>
-						You must install metamask, a virtual wallet, in your browser.
-					</a>
-				</p>
-			)
 		}
 	}
 
