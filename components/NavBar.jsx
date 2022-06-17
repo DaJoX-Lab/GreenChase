@@ -194,8 +194,8 @@ const NavBar = () => {
 							</DrawerHeader>
 							<DrawerBody>
 								<p className='mt-4 mb-2'>
-									Connect with one of our available wallet providers or create
-									a new one
+									Connect with one of our available wallet providers or create a
+									new one
 								</p>
 								<div
 									onClick={ConnectToMetamask}
