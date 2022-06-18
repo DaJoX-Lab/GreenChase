@@ -13,10 +13,10 @@ import { FaDiscord } from 'react-icons/fa'
 const Footer = () => {
 	const Member = ({ src, name, role }) => {
 		return (
-			<div className='flex'>
+			<div className='flex mt-3'>
 				<Image src={src} alt={name} height={30} width={30} />
-				<p>{name}</p>
-				<p>{role}</p>
+				<p className='text-white ml-2 mr-3'>{name}</p>
+				<p className='text-[#7eab48]'>{role}</p>
 			</div>
 		)
 	}
@@ -29,7 +29,7 @@ const Footer = () => {
 			<div className='md:absolute md:block hidden md:mt-[-400px] ml-8'>
 				<Image src={Ellipse1} height={300} alt='ellipse1' width={300} />
 			</div>
-			<div className='flex justify-center items-center w-full'>
+			<div className='md:block hidden mt-[-10vh] pl-[25vw] pr-[25vw] absolute text-center justify-center items-center w-full'>
 				<h1 className='text-3xl font-bold text-white'>Team Member</h1>
 				<div className='flex'>
 					<div className='flex-col'>
@@ -37,26 +37,26 @@ const Footer = () => {
 						<Member src={Hairui} name='Hairui Huang' role='UI/UX Designer' />
 						<Member src={Dawal} name='Dawar Kunal' role='Engineer' />
 					</div>
-					<div>
+					<div className='ml-[10vw]'>
 						<Member src={Kuan} name='Kuannnn' role='Engineer' />
 						<Member src={Paschal} name='Okwuosah Pashal' role='Engineer' />
 					</div>
 				</div>
 			</div>
-			<div className='md:absolute inherit md:mt-[-70px] mt-[20vh] ml-[85vw] md:ml-[80vw] text-[#323232] md:text-white'>
+			<div className='md:absolute inherit mt-[0vh]  md:mt-[20vh] ml-[85vw] md:ml-[80vw] text-[#323232] md:text-white'>
 				<div className='Apps'>
-					<div className='md:text-5xl text-4xl mr-5 mb-2 md:mb-0'>
+					<div className='md:text-3xl text-4xl mr-5 mb-2 md:mb-0'>
 						<FaFacebook />
 					</div>
-					<div className='md:text-5xl text-4xl mr-5 mb-2 md:md-0'>
+					<div className='md:text-3xl text-4xl mr-5 mb-2 md:md-0'>
 						<FaDiscord />
 					</div>
-					<div className='md:text-5xl text-4xl'>
+					<div className='md:text-3xl text-4xl'>
 						<AiOutlineTwitter />
 					</div>
 				</div>
 			</div>
-			<div className='md:block hidden h-4 mt-[-6px] bg-[#1D4B41]' />
+			<div className='md:block hidden h-48 mt-[-10px] bg-[#1D4B41]' />
 		</div>
 	)
 }

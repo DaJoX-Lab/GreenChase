@@ -66,7 +66,7 @@ const Banner = () => {
 					</p>
 				</div>
 			</div>
-			<div className='bg-[#F4F9F3] pl-20 pr-20 -mt-40'>
+			<div className='bg-[#F4F9F3] md:block hidden pl-20 pr-20 -mt-40'>
 				<div className='pt-8 justify-between flex'>
 					<div className='ml-20'>
 						<Image src={Ellipse2} alt='ellipse2' height={300} width={300} />
@@ -83,10 +83,10 @@ const Banner = () => {
 						</div>
 					</div>
 				</div>
-				<div className='w-full z-0 max-w-full ml-[50vw]'>
+				<div className=' md:block hidden w-full z-0 max-w-full ml-[50vw]'>
 					<Image src={Ellipse1} alt='ellipse' height={500} width={500} />
 				</div>
-				<div className='mb-8 mt-[-80vh] absolute pr-20 '>
+				<div className=' md:block hidden mb-8 mt-[-80vh] absolute pr-20 '>
 					<h1 className='text-[#459B71] text-5xl font-bold mb-8 mt-7'>
 						About Product
 					</h1>
@@ -98,7 +98,7 @@ const Banner = () => {
 						trace and accumulate green credits, so as to improve the climate.
 					</p>
 				</div>
-				<div className=' mt-[-40vh] absolute pr-20 '>
+				<div className='md:block hidden mt-[-40vh] absolute pr-20 '>
 					<h1 className='text-[#459B71] text-5xl font-bold mb-8'>
 						What&lsquo;s Next
 					</h1>
