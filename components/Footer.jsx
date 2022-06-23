@@ -43,7 +43,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className='md:absolute inherit mt-[0vh]  md:mt-[20vh] ml-[85vw] md:ml-[80vw] text-[#323232] md:text-white'>
+			<div className='md:absolute inherit mt-[30vh]  md:mt-[20vh] ml-[85vw] md:ml-[80vw] text-[#323232] md:text-white'>
 				<div className='Apps'>
 					<div className='md:text-3xl text-4xl mr-5 mb-2 md:mb-0'>
 						<FaFacebook />
@@ -56,7 +56,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className='md:block hidden h-48 mt-[-10px] bg-[#1D4B41]' />
+			<div className='md:block hidden h-60 mb-[0px] mt-[-10px] bg-[#1D4B41]' />
 		</div>
 	)
 }
