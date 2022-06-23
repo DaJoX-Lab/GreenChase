@@ -87,7 +87,7 @@ const Banner = () => {
 					<Image src={Ellipse1} alt='ellipse' height={500} width={500} />
 				</div>
 				<div className='lg:mt-[-60vh] md:block hidden mb-8 absolute pr-20 '>
-					<h1 className='text-[#459B71] text-5xl font-bold mb-8 mt-7'>
+					<h1 className='text-[#459B71] text-5xl font-bold mb-8 mt-6'>
 						About Product
 					</h1>
 					<p className='ml-16'>
