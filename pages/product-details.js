@@ -31,7 +31,12 @@ const Product = () => {
 						objectFit='contain'
 					/>
 				</div>
-				<Progress width='100%' value={perc} colorScheme={color} />
+				<Progress
+					width='100%'
+					className='rounded-lg'
+					value={perc}
+					colorScheme={color}
+				/>
 				<p className='-mt-1 ml-1'>{amount}</p>
 			</div>
 		)

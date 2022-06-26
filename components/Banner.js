@@ -9,13 +9,13 @@ import { FaDiscord } from 'react-icons/fa'
 const Banner = () => {
 	return (
 		<>
-			<div className='md:block bg-white hidden'>
+			<div className='md:block bg-white hidden h-[100vh]'>
 				<div className='flex pl-[5vw] pr-[0vw]  w-full'>
 					<div className='w-ful pt-[20vh] absolute mr-[50vw]'>
-						<h1 className='text-[#459B71] text-5xl font-bold mb-8'>
+						<h1 className='text-[#459B71] font-righteous text-5xl font-bold mb-8'>
 							GreenChase
 						</h1>
-						<p className='text-[#459B71] text-2xl font-semibold mb-4'>
+						<p className='text-[#459B71] font-mono text-2xl font-bold mb-4'>
 							Trace your support for the environment
 						</p>
 						<p className='w-full max-w-lg'>
