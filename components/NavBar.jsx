@@ -54,7 +54,7 @@ const NavBar = () => {
 			<Link href='/'>
 				<div className={style.logoContainer}>
 					{/*<Image src={Logo} height={40} width={40} />*/}
-					<div className={style.logoText}>Greenchase</div>
+					<div className={style.logoText}>GreenChase</div>
 				</div>
 			</Link>
 			<div className='hidden md:flex'>
@@ -114,16 +114,16 @@ const NavBar = () => {
 						<DrawerOverlay />
 						<DrawerContent>
 							<DrawerBody className='divide-y-1 divide-gray-200'>
-								<p className='mt-4 mb-2 border-b-2'>
+								<p className='mt-4 mb-2 border-b-2 pb-2'>
 									Connect with one of our available wallet providers or create a
 									new one
 								</p>
 								<div
 									onClick={ConnectToMetamask}
-									className='flex border-b-2 cursor-pointer	'
+									className='flex border-b-2 cursor-pointer pb-2	'
 								>
 									<Icon fill='#000000' size={30} svg='metamask' />
-									<p className='text-lg ml-2 mt-1 font-bold text-black mb-2'>
+									<p className='text-lg ml-2 mt-1 font-bold  text-black mb-2'>
 										MetaMask
 									</p>
 								</div>
