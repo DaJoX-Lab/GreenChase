@@ -13,6 +13,7 @@ import drop from '../assets/drop.webp'
 import flash from '../assets/flash.webp'
 import c02 from '../assets/co2.webp'
 import { Progress } from '@chakra-ui/react'
+import Link from 'next/link'
 
 const Profile = () => {
 	const Amount = ({ icon, perc, amount, color }) => {
@@ -27,13 +28,18 @@ const Profile = () => {
 						objectFit='contain'
 					/>
 				</div>
-				<Progress width='100%' value={perc} colorScheme={color} />
+				<Progress
+					width='100%'
+					className='rounded-lg'
+					value={perc}
+					colorScheme={color}
+				/>
 				<p className='-mt-1 ml-1'>{amount}</p>
 			</div>
 		)
 	}
 	return (
-		<div className='justify-center'>
+		<div className='justify-center mb-8'>
 			<NavBar />
 			<div className='md:flex-row Apps flex-col pt-20 pl-10 pr-10 md:pl-20 md:pr-20 justify-between'>
 				<div className='justify-center text-center'>
@@ -67,20 +73,22 @@ const Profile = () => {
 					</div>
 				</div>
 			</div>
-			<div className='justify-center mb-8 bg-white mt-8 text-center h-full md:h-[60vh] border-[#36ca82] rounded-md border-4	'>
+			<div className='justify-center bg-white mt-8 text-center h-full md:h-[60vh] border-[#36ca82] rounded-md border-4	'>
 				<h1 className='text-[#459B71] text-2xl mt-4'>My Purchase</h1>
 				<div className='md:flex grid grid-rows-4 grid-flow-col gap-2 pr-10 pl-10 mt-4'>
 					{[Product1, Product2, Product3, Product4, Product5, Product6].map(
 						(item, index) => {
 							return (
-								<div key={index} className='ml-8 mb-4'>
-									<Image
-										src={item}
-										alt={item}
-										height={80}
-										width={80}
-										objectFit='contain'
-									/>
+								<div key={index} className='ml-8 cursor-pointer mb-4'>
+									<Link href='/product-details'>
+										<Image
+											src={item}
+											alt={item}
+											height={80}
+											width={80}
+											objectFit='contain'
+										/>
+									</Link>
 								</div>
 							)
 						}

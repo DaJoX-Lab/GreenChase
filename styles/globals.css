@@ -7,11 +7,18 @@
 	.Apps {
 		display: flex;
 	}
+
+	.mobile {
+		flex-direction: column;
+	}
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	.Apps {
 		display: flex;
+	}
+	.mobile {
+		flex-direction: column;
 	}
 }
 
@@ -19,5 +26,8 @@
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
 	.Apps {
 		flex-direction: column;
+	}
+	.mobile {
+		display: flex;
 	}
 }

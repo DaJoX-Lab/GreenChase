@@ -9,13 +9,13 @@ import { FaDiscord } from 'react-icons/fa'
 const Banner = () => {
 	return (
 		<>
-			<div className='md:block bg-white hidden'>
-				<div className='flex pl-[15vw] pr-[0vw]  w-full'>
+			<div className='md:block bg-white hidden h-[100vh]'>
+				<div className='flex pl-[5vw] pr-[0vw]  w-full'>
 					<div className='w-ful pt-[20vh] absolute mr-[50vw]'>
-						<h1 className='text-[#459B71] text-5xl font-bold mb-8'>
+						<h1 className='text-[#459B71] font-righteous text-5xl font-bold mb-8'>
 							GreenChase
 						</h1>
-						<p className='text-[#459B71] text-2xl font-semibold mb-4'>
+						<p className='text-[#459B71] font-mono text-2xl font-bold mb-4'>
 							Trace your support for the environment
 						</p>
 						<p className='w-full max-w-lg'>
@@ -23,7 +23,7 @@ const Banner = () => {
 							based on blockchain technology.
 						</p>
 					</div>
-					<div className='mt-20 ml-[30vw]'>
+					<div className='mt-20 ml-[40vw]'>
 						<Image
 							src={Rectangle}
 							objectFit='contain'
@@ -83,10 +83,10 @@ const Banner = () => {
 						</div>
 					</div>
 				</div>
-				<div className=' md:block hidden w-full z-0 max-w-full ml-[50vw]'>
+				<div className='md:block lg:block hidden w-full z-0 max-w-full ml-[50vw]'>
 					<Image src={Ellipse1} alt='ellipse' height={500} width={500} />
 				</div>
-				<div className=' md:block hidden mb-8 mt-[-80vh] absolute pr-20 '>
+				<div className='lg:mt-[-60vh] md:block hidden mb-8 absolute pr-20 '>
 					<h1 className='text-[#459B71] text-5xl font-bold mb-8 mt-7'>
 						About Product
 					</h1>
@@ -98,7 +98,7 @@ const Banner = () => {
 						trace and accumulate green credits, so as to improve the climate.
 					</p>
 				</div>
-				<div className='md:block hidden mt-[-40vh] absolute pr-20 '>
+				<div className='lg:mt-[-30vh] md:block hidden mt-[-40vh] absolute pr-20 '>
 					<h1 className='text-[#459B71] text-5xl font-bold mb-8'>
 						What&lsquo;s Next
 					</h1>
