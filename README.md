@@ -4,6 +4,10 @@ GreenChase is a traceability tool for environment-friendly products developed ba
 
 # 2. Core Innovations (spotlight)
 
+![Image](https://user-images.githubusercontent.com/105709145/176513211-e3f10187-e95a-40c7-b276-0bf1fa911d9c.png)
+
+For core innovations, let’s take the global recycled standard issued by textile exchange America as an example. This standard is used to certify the company has used recycled materials in their products. To make sure the whole supply chain has followed the rule, they use transaction certificates to monitor the whole supply chain. Which means for each trading, there will be a TC to show that it is the material certified by GRS. The whole supply chain will be like a tree map. We can seem **each TC as a new NFT collection** since it has an original **fixed number of the raw materials**. Using this nesting structure, we can trace every detailed information as we record them on chain. Through this, we can help customers to trace their supports & contributions to the environment, and to encourage more people to join in environmental protection.
+
 
 # 3. What’s next
 
@@ -15,17 +19,17 @@ GreenChase is a traceability tool for environment-friendly products developed ba
 
 # 4. Links 
 
-Github:
+Github: [https://github.com/DaJoX/GreenChase](https://github.com/DaJoX/GreenChase)
 
-Website:
+Website: [https://green-chase.vercel.app/](https://green-chase.vercel.app/)
 
-Demo Video:
+Demo Video: [https://youtu.be/KhBdJaX26Lo](https://youtu.be/KhBdJaX26Lo)
 
-Presentation (Slidedeck) : 
+Presentation (Slidedeck) : [https://docs.google.com/presentation/d/1DziBb_YxbqNeqmwlxkI_v4SsJ2cRxGHoYV9vnAHF6Ac/edit?usp=sharing](https://docs.google.com/presentation/d/1DziBb_YxbqNeqmwlxkI_v4SsJ2cRxGHoYV9vnAHF6Ac/edit?usp=sharing)
 
 # 5. Contacts
 
-Twitter: @greenchase_xlab
+Twitter: [@greenchase_xlab](https://twitter.com/greenchase_xlab)
 
 Discord: Kuannnn#9976
 
@@ -39,4 +43,4 @@ Together, we will build a great product and help make the earth a better greener
 
 # 7. Others 
 
-UnstoppableDomain registered account email address 
+UnstoppableDomain registered account email address: aujingx@gmail.com
